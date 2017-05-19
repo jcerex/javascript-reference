@@ -52,6 +52,8 @@ let printContent = newArray.map((person) => {
 });
 ```
 
+live example http://js.do/code/filterexample
+
 #### Explanation
 
 In this example we are doing the same but we are using a key, value pair such as is commonly used in JSON data. This will exact the objects that have a postcode of 2000 put and them into `newArray`. The `newArray` will have the map method go over it to extract the names into another array and other functions can be performed on that array such as printing them with `document.write(printContent);`.
@@ -96,7 +98,7 @@ document.write(printContent);
 
 This will return Adam and Surya who have the postcode 2000. 
 ```
-See this live example http://js.do/code/153073
+See this live example http://js.do/code/foreachjsexample
 
 ### Explanation
 
