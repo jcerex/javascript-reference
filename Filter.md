@@ -25,8 +25,7 @@ This is the abstracted syntax:
 var Address = [2091, 2018, 3094, 2018, 8759, 2018, 2894, 5985, 2094];
 var postCode = Address.filter(function(val) {
   return val === 2018;
-});
-[2018, 2018]
+}); //[2018, 2018]
 ```
 
 #### Explanation
@@ -50,7 +49,7 @@ var newArray = oldArray.filter(function(val) {
 });
 let printContent = newArray.map((person) => {
     return person.name
-});
+}); //['Adam','Surya']
 ```
 
 live example http://js.do/code/filterexample
@@ -96,10 +95,8 @@ oldArray.forEach((val) => {
 });
 var printContent = newArray.map((person) => {
     return person.name
-});
-document.write(printContent);
+}); //['Adam','Surya']
 
-This will return Adam and Surya who have the postcode 2000. 
 ```
 See this live example http://js.do/code/foreachjsexample
 
