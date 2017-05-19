@@ -21,7 +21,7 @@ This is the abstracted syntax:
 
 ### Example of basic implementation:
 
-```
+```javascript
 var Address = [2091, 2018, 3094, 2018, 8759, 2018, 2894, 5985, 2094];
 var postCode = Address.filter(function(val) {
   return val === 2018;
