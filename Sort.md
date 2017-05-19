@@ -11,7 +11,7 @@ Some examples of when you would use the **.sort ( )** method would be:
 - Having a list of numbers which need to be ordered from smallest to biggest (or) biggest to smallest.
 - When you are trying to sort/order a range of information.
 
-###Implementation 
+### Implementation
 
 ```
 arr.sort( )
@@ -20,32 +20,32 @@ arr.sort(compareFunction)
 The first example would sort the array in Unicode, for example:
 
 ```
-$ var points = [40, 100, 1, 5, 25, 10]
-$ points.sort()
-> [1, 10, 100, 25, 40, 5]
+> var points = [40, 100, 1, 5, 25, 10];
+> points.sort();
+< [1, 10, 100, 25, 40, 5]
 ```
 The second example with the inclusion of 'compareFunction', sorts depending on what function is passed in, for example:
 ```
-$ var points = [40, 100, 1, 5, 25, 10]
-$ points.sort(function(a, b){return a-b});
-> [1, 5, 10, 25, 40, 100]
+> var points = [40, 100, 1, 5, 25, 10];
+> points.sort(function(a, b){return a-b});
+< [1, 5, 10, 25, 40, 100]
 ```
 Sorting strings alphabetically:
 ```
-$ var fruits = ["Avocado", "Watermelon", "Peaches", "Mango"];
-$ fruits.sort();
-> [Avocado, Mango, Peaches, Watermelon]
+> var fruits = ["Avocado", "Watermelon", "Peaches", "Mango"];
+> fruits.sort();
+< ["Avocado", "Mango", "Peaches", "Watermelon"]
 ```
 
 In the first example the array is sorted via the first numerical digit, whereas in the second example it is sorted by the whole numerical value of the integer.
 
-###Potential Pitfalls
+### Potential Pitfalls
 
 - By default the **.sort( )** method sorts by Unicode (as explained above); which is often not a desirable outcome when sorting integers.
 
 ----------
 
-###Further Reading
+### Further Reading
 
 JavaScript Array sort() Method by w3schools:
 https://www.w3schools.com/jsref/jsref_sort.asp
