@@ -20,47 +20,47 @@ Simple example:
 ### Implementation Walkthrough/Examples
 ### Function Factories
     
-function makeAdder(x) {
-	return function(y) {
-		return x + y;
-	};
-}
-    
-var add5 = makeAdder(5);
-var add10 = makeAdder(10);
+	function makeAdder(x) {
+	  return function(y) {
+	    return x + y;
+	  };
+	}
 
-console.log(add5(2)); // 7
-console.log(add10(2)); // 12
+	var add5 = makeAdder(5);
+	var add10 = makeAdder(10);
+
+	console.log(add5(2)); // 7
+	console.log(add10(2)); // 12
 
     
 ### Namespacing private functions
 
-var dwightSalary = (function() {
-	var salary = 60000;
-	function changeBy(amount) {
-		salary += amount;
-		}
-		return {
-		raise: function() {
-		  changeBy(5000);
-		},
-		lower: function() {
-		  changeBy(-5000);
-		},
-		currentAmount: function() {
-		  return salary;
-		}
-	}; 
-})();
+	var dwightSalary = (function() {
+ 	  var salary = 60000;
+	  function changeBy(amount) {
+	    salary += amount;
+	  }
+	  return {
+	   raise: function() {
+	   changeBy(5000);
+	   },
+	   lower: function() {
+	   changeBy(-5000);
+	   },
+	   currentAmount: function() {
+	   return salary;
+	   }
+	  }; 
+	})();
     
-alert(dwightSalary.currentAmount()); // $60,000
-dwightSalary.raise();
-alert(dwightSalary.currentAmount()); // $65,000
-dwightSalary.lower();
-dwightSalary.lower();
-alert(dwightSalary.currentAmount()); // $55,000
+	alert(dwightSalary.currentAmount()); // $60,000
+	dwightSalary.raise();
+	alert(dwightSalary.currentAmount()); // $65,000
+	dwightSalary.lower();
+	dwightSalary.lower();
+	alert(dwightSalary.currentAmount()); // $55,000
 
-dwightSalary.changeBy(10000) // TypeError: undefined is not a function
+	dwightSalary.changeBy(10000) // TypeError: undefined is not a function
 
 
 ### Potential Pitfalls:
