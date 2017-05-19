@@ -32,4 +32,4 @@ Taka likes to use analogies because it helps ```him``` to understand the concept
 - Confusion of what *this* refer to.
 
 # 4. Further Reading
-* [http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/] - HTML enhanced for web apps!
+* http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
