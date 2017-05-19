@@ -1,6 +1,6 @@
 # What is Fetch???? -_-
 
-Fetch API which provides a logical way to fetch resources asynchronously across the network using Promises, which enables a simpler and cleaner API, avoiding callback hell and having to remember the complex API of XMLHttpRequest.
+Fetch is an API which provides a logical way to fetch resources asynchronously across the network using Promises, which enables a simpler and cleaner API, avoiding callback hell and having to remember the complex API of XMLHttpRequest.
 
 The aim of fetch is to provide a modern equivalent to XMLHttpRequest which is an API that gives you the functionality for transferring data between a client and a server. It offers the same sort of functionality but is designed to be more efficient and easier to use.
 
