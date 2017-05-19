@@ -98,7 +98,7 @@ This will return Adam and Surya who have the postcode 2000.
 ```
 See this live example http://js.do/code/153073
 
-#### Explanation
+### Explanation
 
 This is very similar to the function but there's a bit more involved. Here we are using the `forEach` method on `oldArray` and each value is entered through `val`. This is checked against the if statement for a particular condition and if it is true the value will be push into 'newArray'.
 
