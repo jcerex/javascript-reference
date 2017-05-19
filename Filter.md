@@ -94,7 +94,7 @@ var printContent = newArray.map((person) => {
 });
 document.write(printContent);
 
-This will return Adam and Surya who have the postcode 2000
+This will return Adam and Surya who have the postcode 2000. See this live example http://js.do/code/153073
 ```
 
 #### Explanation
