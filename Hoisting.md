@@ -10,7 +10,8 @@
 3) Usage
 
 e.g.
-```    var a  -> declaration
+``` 
+    var a  -> declaration
         a = 2 -> initialization
     console.log(a) -> usage
 ```
