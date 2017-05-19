@@ -1,3 +1,4 @@
+[![N|Solid](http://blog.guinatal.com/wp-content/uploads/2015/10/hoisting.jpg)](https://nodesource.com/products/nsolid)
 # Executive Summary
 
  - Hoisting is more of a term used to help understand how JavaScript looks at your code while it is compiling. Hoisting “moves” the declaration to the top of the function/block of code while compiling. This means you are able to use functions before they are made, as it hoisting moves it to the top while compiling the code in the file.
