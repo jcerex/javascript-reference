@@ -8,7 +8,8 @@ Using context, the sentence can be written as:
 Taka likes to use analogies because it helps ```him``` to understand the concepts better.
 - In Javascript, the thing called *this* is the object that "owns" the Javascript code.
 - In Javascript, *this* always refers to the "owner" of the function we're executing or, the object that the function is a method of. 
- ## 1. Context 
+
+## 1a. Context 
  - objects
  - functions
  
