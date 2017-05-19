@@ -35,7 +35,7 @@ The `Address` array is having the filter method called on it. The argument enter
 
 ### Example of complex implementation
 
-```
+```javascript
 var oldArray = [
     {name: 'Adam', postcode: '2000'},
     {name: 'Bryan', postcode: '2001'},
@@ -65,7 +65,9 @@ It must be used on an array object and that array object can contain any type of
 
 It cannot take a singular value. If you try to do this:
 
-`var newArray = arr.filter(anyValue)`
+```javascript
+var newArray = arr.filter(anyValue)
+```
 
 It will not work and you'll get an `Uncaught TypeError` because the method has to use a callback for the conditions.
 
@@ -74,7 +76,7 @@ It will not work and you'll get an `Uncaught TypeError` because the method has t
 
 This is an alternative to filter:
 
-```
+```javascript
 var oldArray = [
     {name: 'Adam', postcode: '2000'},
     {name: 'Bryan', postcode: '2001'},
