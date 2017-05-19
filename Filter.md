@@ -93,6 +93,8 @@ var printContent = newArray.map((person) => {
     return person.name
 });
 document.write(printContent);
+
+This will return Adam and Surya who have the postcode 2000
 ```
 
 #### Explanation
