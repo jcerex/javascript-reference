@@ -60,6 +60,10 @@ This means you can explicitly handle responses without a Content-Length differen
 ### Synchronous requests
 Noooope. The fetch spec documents them, but they won't be part of the API. Sync requests are awful.
 
+# Alternatives to Fetch
+
+- XMLHttpRequest
+
 # Resources
 
 https://jakearchibald.com/2015/thats-so-fetch/
