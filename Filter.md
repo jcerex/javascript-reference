@@ -1,6 +1,6 @@
 # Summary
 
-`.filter()` is a JS method used to extract items of an array according to a callback function and create a new array out of these items.
+`.filter()` is a JS method used to extract items of an array that pass the test implemented by the provided function and create a new array out of these items.
 
 ## Context
 
