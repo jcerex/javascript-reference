@@ -40,9 +40,9 @@ fetch('https://mywebsite.com/endpoint/', {
 ![Fetchest GIF](http://res.cloudinary.com/strannikad/image/upload/v1495159386/download_hlpid7.gif)
 
 
-The technologies specification has not stabilized, and the level of compatability for using in various browsers differ, especially around it's use in IE. 
-
 ![Support Screen Shot](http://res.cloudinary.com/strannikad/image/upload/c_scale,w_887/v1495159240/Fetch_Support_gx44o6.png)
+
+The technologies specification has not stabilized, and the level of compatability for using in various browsers differ, especially around it's use in IE. 
 
 # What's missing?
 Of course, there are some features XHR has that fetch doesn't have.
